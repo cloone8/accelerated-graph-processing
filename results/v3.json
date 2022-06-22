@@ -1,0 +1,1192 @@
+{
+    "KONECT-actor-collaboration": {
+        "PAGERANK_CUDA": {
+            "avg_total": 9.61880448,
+            "std_total": 0.4947169864758736,
+            "avg_computation": 1.25232354,
+            "std_computation": 0.006234440475968953,
+            "avg_memory": 8.36648094,
+            "std_memory": 0.4925880929454715
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 6.52011038,
+            "std_total": 0.05136901302376364,
+            "avg_computation": 0.46405566,
+            "std_computation": 0.0006754494980381605,
+            "avg_memory": 6.056054720000001,
+            "std_memory": 0.05124850970400604
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.06452708215818517,
+            "std_total": 0.0024289014741097335,
+            "avg_computation": 0.016319912323727776,
+            "std_computation": 6.487249420335998e-05,
+            "avg_memory": 0.048207169834457386,
+            "std_memory": 0.002426022706080986
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.046458253218884124,
+            "std_total": 0.002342231655579807,
+            "avg_computation": 0.014477264868179032,
+            "std_computation": 5.483634632768106e-05,
+            "avg_memory": 0.03198098835070509,
+            "std_memory": 0.002341415906418453
+        }
+    },
+    "KONECT-ca-cit-HepPh": {
+        "PAGERANK_CUDA": {
+            "avg_total": 0.7366970399999999,
+            "std_total": 0.005580988826220677,
+            "avg_computation": 0.21224032000000004,
+            "std_computation": 8.699274452504494e-05,
+            "avg_memory": 0.52445672,
+            "std_memory": 0.005586419594122873
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.41013484,
+            "std_total": 0.003155018626632813,
+            "avg_computation": 0.03382988,
+            "std_computation": 0.00012248602205966173,
+            "avg_memory": 0.37630496,
+            "std_memory": 0.003146486656320027
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.009092822808093193,
+            "std_total": 0.00036599504624498254,
+            "avg_computation": 0.0016072789699570814,
+            "std_computation": 1.7746979582042265e-05,
+            "avg_memory": 0.0074855438381361125,
+            "std_memory": 0.0003653756561256565
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.0070678228080931944,
+            "std_total": 0.0003326082235988811,
+            "avg_computation": 0.0015420257510729615,
+            "std_computation": 7.931919019677681e-06,
+            "avg_memory": 0.005525797057020233,
+            "std_memory": 0.00033224575738779734
+        }
+    },
+    "KONECT-cfinder-google": {
+        "PAGERANK_CUDA": {
+            "avg_total": 0.7171025,
+            "std_total": 0.0020902280186620736,
+            "avg_computation": 0.48375049999999997,
+            "std_computation": 0.00010154491617013688,
+            "avg_memory": 0.233352,
+            "std_memory": 0.0020449429625297617
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.21084225999999998,
+            "std_total": 0.0015442649359484913,
+            "avg_computation": 0.0314357,
+            "std_computation": 3.749253258983701e-05,
+            "avg_memory": 0.17940655999999996,
+            "std_memory": 0.001539055218762471
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0015948540772532192,
+            "std_total": 7.664566992866843e-05,
+            "avg_computation": 0.00043693378295524217,
+            "std_computation": 1.8071403585925452e-05,
+            "avg_memory": 0.0011579202942979766,
+            "std_memory": 5.9850588740364136e-05
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.0006702593500919682,
+            "std_total": 5.704414100284761e-06,
+            "avg_computation": 0.000404996934396076,
+            "std_computation": 4.486028769567343e-06,
+            "avg_memory": 0.0002652624156958921,
+            "std_memory": 2.8474052729757833e-06
+        }
+    },
+    "KONECT-dbpedia-all": {
+        "PAGERANK_CUDA": {
+            "avg_total": 111.38825372,
+            "std_total": 1.1390484086870412,
+            "avg_computation": 29.78183572,
+            "std_computation": 0.010452779418011284,
+            "avg_memory": 81.60641799999999,
+            "std_memory": 1.140409884193468
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 63.7778968,
+            "std_total": 3.1006483945634793,
+            "avg_computation": 2.2361071,
+            "std_computation": 0.005745035917207134,
+            "avg_memory": 61.5417897,
+            "std_memory": 3.0977869766706183
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.16502763825873698,
+            "std_total": 0.0015874343942999375,
+            "avg_computation": 0.13570814285714286,
+            "std_computation": 9.543580928359524e-05,
+            "avg_memory": 0.029319495401594117,
+            "std_memory": 0.0015728032064600708
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.15782528203556104,
+            "std_total": 0.0023115310516488314,
+            "avg_computation": 0.1339750361741263,
+            "std_computation": 0.00013299078411971467,
+            "avg_memory": 0.0238502458614347,
+            "std_memory": 0.002290420658127438
+        }
+    },
+    "KONECT-dbpedia-starring": {
+        "PAGERANK_CUDA": {
+            "avg_total": 1.37816246,
+            "std_total": 0.06825064954217214,
+            "avg_computation": 0.029269919999999998,
+            "std_computation": 0.00031425510910723485,
+            "avg_memory": 1.34889254,
+            "std_memory": 0.06805229640187317
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 1.1030268399999998,
+            "std_total": 0.026626075436203506,
+            "avg_computation": 0.03740648,
+            "std_computation": 4.2964282840517253e-05,
+            "avg_memory": 1.06562036,
+            "std_memory": 0.02659914589287407
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0017368117719190682,
+            "std_total": 8.567707474414117e-05,
+            "avg_computation": 0.0004383868792152054,
+            "std_computation": 1.4348147309571736e-05,
+            "avg_memory": 0.0012984248927038627,
+            "std_memory": 7.340042679997361e-05
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.0009884530962599631,
+            "std_total": 5.2597252551866584e-05,
+            "avg_computation": 0.0004235027590435316,
+            "std_computation": 1.1026186365465363e-05,
+            "avg_memory": 0.0005649503372164317,
+            "std_memory": 4.472952283387067e-05
+        }
+    },
+    "KONECT-discogs_affiliation": {
+        "PAGERANK_CUDA": {
+            "avg_total": 14.125027479999998,
+            "std_total": 0.23156706094902532,
+            "avg_computation": 8.11384496,
+            "std_computation": 0.015126714473354674,
+            "avg_memory": 6.011182519999998,
+            "std_memory": 0.23181528060041598
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 4.9574521,
+            "std_total": 0.02076615080485541,
+            "avg_computation": 0.6922013799999999,
+            "std_computation": 0.0016173666732067938,
+            "avg_memory": 4.26525072,
+            "std_memory": 0.02064185145382074
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.028856665236051498,
+            "std_total": 0.001739451741573288,
+            "avg_computation": 0.0032125683629675044,
+            "std_computation": 7.097297329712306e-06,
+            "avg_memory": 0.025644096873084003,
+            "std_memory": 0.0017372308455840266
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.021756143470263643,
+            "std_total": 0.0012300258810085765,
+            "avg_computation": 0.0035338822808093193,
+            "std_computation": 2.4897994200634548e-05,
+            "avg_memory": 0.018222261189454324,
+            "std_memory": 0.0012280739449167962
+        }
+    },
+    "KONECT-opsahl-ucsocial": {
+        "PAGERANK_CUDA": {
+            "avg_total": 0.03106264,
+            "std_total": 0.0034990497839270597,
+            "avg_computation": 0.00464728,
+            "std_computation": 3.252632164878161e-05,
+            "avg_memory": 0.02641536,
+            "std_memory": 0.0034672790297869014
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.02683232,
+            "std_total": 0.00029573585781910165,
+            "avg_computation": 0.00382108,
+            "std_computation": 0.0003081030892412473,
+            "avg_memory": 0.02301124,
+            "std_memory": 7.438213764070002e-05
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0010232949110974862,
+            "std_total": 0.00010300626241509411,
+            "avg_computation": 0.0001689644389944819,
+            "std_computation": 1.0137737424438793e-05,
+            "avg_memory": 0.0008543304721030043,
+            "std_memory": 9.334303104264601e-05
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.0002835585530349479,
+            "std_total": 5.186063375279084e-06,
+            "avg_computation": 0.00017088718577559778,
+            "std_computation": 2.836354403903579e-06,
+            "avg_memory": 0.00011267136725935008,
+            "std_memory": 4.5069503414328884e-06
+        }
+    },
+    "KONECT-orkut-links": {
+        "PAGERANK_CUDA": {
+            "avg_total": 97.21182315999998,
+            "std_total": 1.8921718086160075,
+            "avg_computation": 8.98454048,
+            "std_computation": 0.006869685201637657,
+            "avg_memory": 88.22728267999999,
+            "std_memory": 1.8915340177034874
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 66.68148916,
+            "std_total": 1.5767854211815548,
+            "avg_computation": 6.5794431,
+            "std_computation": 0.00933593072007286,
+            "avg_memory": 60.10204606,
+            "std_memory": 1.5771236925487422
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.5169862440220724,
+            "std_total": 0.00793207026953297,
+            "avg_computation": 0.060105976088289395,
+            "std_computation": 5.743793103149873e-05,
+            "avg_memory": 0.45688026793378295,
+            "std_memory": 0.007933928128994312
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.2471891128142244,
+            "std_total": 0.010198369299302481,
+            "avg_computation": 0.0674517939914163,
+            "std_computation": 0.00017987021136789942,
+            "avg_memory": 0.1797373188228081,
+            "std_memory": 0.010192717850854693
+        }
+    },
+    "KONECT-prosper-loans": {
+        "PAGERANK_CUDA": {
+            "avg_total": 2.19680944,
+            "std_total": 0.05610697677229099,
+            "avg_computation": 0.5322537399999999,
+            "std_computation": 0.0036243462186165407,
+            "avg_memory": 1.6645557,
+            "std_memory": 0.05280806927781017
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 1.34328996,
+            "std_total": 0.011629385720595908,
+            "avg_computation": 0.07740032000000001,
+            "std_computation": 0.00017889476683234643,
+            "avg_memory": 1.26588964,
+            "std_memory": 0.011604760739903254
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0066878320049049665,
+            "std_total": 0.0002525790622581334,
+            "avg_computation": 0.0009493795217657879,
+            "std_computation": 2.5994128422836034e-05,
+            "avg_memory": 0.005738452483139178,
+            "std_memory": 0.00024285070220335823
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.005308328019619865,
+            "std_total": 0.0001266630184340031,
+            "avg_computation": 0.0009736486817903126,
+            "std_computation": 1.9379862540631063e-06,
+            "avg_memory": 0.004334679337829553,
+            "std_memory": 0.00012623368229878473
+        }
+    },
+    "KONECT-web-NotreDame": {
+        "PAGERANK_CUDA": {
+            "avg_total": 6.3768699600000005,
+            "std_total": 0.08400002234498752,
+            "avg_computation": 0.52778064,
+            "std_computation": 0.007670777201196759,
+            "avg_memory": 5.849089319999999,
+            "std_memory": 0.08293686274327959
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 4.5539070200000005,
+            "std_total": 0.03046934980631519,
+            "avg_computation": 0.15682276,
+            "std_computation": 0.0002031121424238327,
+            "avg_memory": 4.397084260000001,
+            "std_memory": 0.030447090998524013
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.009554535254445126,
+            "std_total": 0.00017590258738008264,
+            "avg_computation": 0.0046252477007970565,
+            "std_computation": 1.57267814487959e-05,
+            "avg_memory": 0.0049292875536480684,
+            "std_memory": 0.00016958141950161685
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.0070001943592887805,
+            "std_total": 0.00011969613937202576,
+            "avg_computation": 0.004356128142244022,
+            "std_computation": 1.8949935950139997e-05,
+            "avg_memory": 0.0026440662170447576,
+            "std_memory": 0.0001170129897062693
+        }
+    },
+    "KONECT-wiki_talk_en": {
+        "PAGERANK_CUDA": {
+            "avg_total": 73.6668328,
+            "std_total": 0.5435807766163921,
+            "avg_computation": 9.254470079999999,
+            "std_computation": 0.005925377600929804,
+            "avg_memory": 64.41236272,
+            "std_memory": 0.5418020644573817
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 48.520415699999994,
+            "std_total": 1.9075742340589976,
+            "avg_computation": 1.4858939,
+            "std_computation": 0.005323542453103962,
+            "avg_memory": 47.03452179999999,
+            "std_memory": 1.9037959660702295
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.05212926057633354,
+            "std_total": 0.0018766773402795528,
+            "avg_computation": 0.012387418761496013,
+            "std_computation": 2.5654820712904906e-05,
+            "avg_memory": 0.039741841814837524,
+            "std_memory": 0.001872607208661949
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.04189081177191907,
+            "std_total": 0.0008411140204210442,
+            "avg_computation": 0.011347874923359902,
+            "std_computation": 7.53340506085706e-05,
+            "avg_memory": 0.030542936848559167,
+            "std_memory": 0.0008360557593106566
+        }
+    },
+    "KONECT-zhishi-hudong-internallink": {
+        "PAGERANK_CUDA": {
+            "avg_total": 38.63807648,
+            "std_total": 0.35451518619970196,
+            "avg_computation": 4.892398859999999,
+            "std_computation": 0.0078384917375985,
+            "avg_memory": 33.745677619999995,
+            "std_memory": 0.35207651079513347
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 28.305296400000003,
+            "std_total": 0.37707496384432626,
+            "avg_computation": 1.40044482,
+            "std_computation": 0.0018524763608748056,
+            "avg_memory": 26.90485158,
+            "std_memory": 0.37621193055484514
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0445215358675659,
+            "std_total": 0.0009351259332994747,
+            "avg_computation": 0.018221338442673207,
+            "std_computation": 4.0314377549235914e-05,
+            "avg_memory": 0.026300197424892705,
+            "std_memory": 0.0009312412108487619
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.03763809135499694,
+            "std_total": 0.00030801865720612857,
+            "avg_computation": 0.017720192519926427,
+            "std_computation": 2.246792862102278e-05,
+            "avg_memory": 0.019917898835070506,
+            "std_memory": 0.0003062295339652682
+        }
+    },
+    "SNAP-as-skitter": {
+        "PAGERANK_CUDA": {
+            "avg_total": 37.76186506,
+            "std_total": 0.9418826121588273,
+            "avg_computation": 0.915371,
+            "std_computation": 0.0040682184257977115,
+            "avg_memory": 36.846494060000005,
+            "std_memory": 0.9423372252904885
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 28.829952019999997,
+            "std_total": 0.7760572879651729,
+            "avg_computation": 0.85088094,
+            "std_computation": 0.006848954041048899,
+            "avg_memory": 27.979071079999997,
+            "std_memory": 0.7753737825232636
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.03489858736971183,
+            "std_total": 0.0008537430067542218,
+            "avg_computation": 0.014471740649908032,
+            "std_computation": 4.0122339697513126e-05,
+            "avg_memory": 0.020426846719803802,
+            "std_memory": 0.000833767807978373
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.030146329858982218,
+            "std_total": 0.0010901599184450419,
+            "avg_computation": 0.014655786633966892,
+            "std_computation": 4.196483118248445e-05,
+            "avg_memory": 0.015490543225015328,
+            "std_memory": 0.0010871707426190085
+        }
+    },
+    "SNAP-email-EuAll": {
+        "PAGERANK_CUDA": {
+            "avg_total": 2.11668662,
+            "std_total": 0.015696042139201855,
+            "avg_computation": 0.41760680000000006,
+            "std_computation": 0.0005423516940141335,
+            "avg_memory": 1.6990798200000001,
+            "std_memory": 0.01564366976599801
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 1.3804842199999998,
+            "std_total": 0.02833059393185394,
+            "avg_computation": 0.09542332,
+            "std_computation": 4.154729353399602e-05,
+            "avg_memory": 1.2850609,
+            "std_memory": 0.028333713568291747
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.003099892090741876,
+            "std_total": 0.00012242077734065702,
+            "avg_computation": 0.00048772716125076635,
+            "std_computation": 6.608876235720776e-06,
+            "avg_memory": 0.0026121649294911097,
+            "std_memory": 0.00012015144907013104
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.0016258571428571429,
+            "std_total": 0.00014186930997356787,
+            "avg_computation": 0.00046178847332924584,
+            "std_computation": 1.992247425806359e-05,
+            "avg_memory": 0.001164068669527897,
+            "std_memory": 0.00013171059236224153
+        }
+    },
+    "SNAP-roadNet-CA": {
+        "PAGERANK_CUDA": {
+            "avg_total": 39.397283259999995,
+            "std_total": 0.4656115959986306,
+            "avg_computation": 0.2842175,
+            "std_computation": 0.0008547125189208346,
+            "avg_memory": 39.11306576,
+            "std_memory": 0.46541841807545936
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 33.21565316,
+            "std_total": 0.22750706069960638,
+            "avg_computation": 0.7333543399999999,
+            "std_computation": 0.011898144626133953,
+            "avg_memory": 32.482298820000004,
+            "std_memory": 0.2216398576110072
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.19692443776824034,
+            "std_total": 0.01127846585739948,
+            "avg_computation": 0.17700907112201103,
+            "std_computation": 0.0009277095036737133,
+            "avg_memory": 0.019915366646229313,
+            "std_memory": 0.010472489283275363
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.19022625015328018,
+            "std_total": 0.003995251987222911,
+            "avg_computation": 0.17217531943592887,
+            "std_computation": 0.0002395957132517886,
+            "avg_memory": 0.01805093071735132,
+            "std_memory": 0.003913923026046151
+        }
+    },
+    "SNAP-roadNet-PA": {
+        "PAGERANK_CUDA": {
+            "avg_total": 20.459936600000002,
+            "std_total": 0.10667621050206112,
+            "avg_computation": 0.1585276,
+            "std_computation": 0.0003420899296968561,
+            "avg_memory": 20.301409,
+            "std_memory": 0.1067510546943682
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 17.63333868,
+            "std_total": 0.1445573295577144,
+            "avg_computation": 0.40038402000000006,
+            "std_computation": 0.0058648990221145305,
+            "avg_memory": 17.23295466,
+            "std_memory": 0.14461578846828746
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.11457642305334151,
+            "std_total": 0.005601798405503377,
+            "avg_computation": 0.10131841814837522,
+            "std_computation": 0.00016098492227841076,
+            "avg_memory": 0.01325800490496628,
+            "std_memory": 0.00550379482561823
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.10951216738197425,
+            "std_total": 0.0050357867626019,
+            "avg_computation": 0.09917949662783568,
+            "std_computation": 0.0001237187920417228,
+            "avg_memory": 0.010332670754138564,
+            "std_memory": 0.005092201577781907
+        }
+    },
+    "SNAP-roadNet-TX": {
+        "PAGERANK_CUDA": {
+            "avg_total": 26.97994626,
+            "std_total": 0.42737674636563044,
+            "avg_computation": 0.19423493999999997,
+            "std_computation": 0.000925968626034383,
+            "avg_memory": 26.78571132,
+            "std_memory": 0.4272353246786806
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 20.994829799999998,
+            "std_total": 0.1812416468710213,
+            "avg_computation": 0.5057367199999999,
+            "std_computation": 0.004742522248930413,
+            "avg_memory": 20.489093079999996,
+            "std_memory": 0.1798446069340794
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.17987849110974863,
+            "std_total": 0.004962831219952188,
+            "avg_computation": 0.1645449754751686,
+            "std_computation": 0.00039418099635859605,
+            "avg_memory": 0.01533351563458001,
+            "std_memory": 0.004782439777224408
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.17445829000613122,
+            "std_total": 0.00255713142660701,
+            "avg_computation": 0.16156365113427346,
+            "std_computation": 0.00011616957439697484,
+            "avg_memory": 0.012894638871857756,
+            "std_memory": 0.002546611269245783
+        }
+    },
+    "SNAP-web-BerkStan": {
+        "PAGERANK_CUDA": {
+            "avg_total": 17.50015578,
+            "std_total": 0.1417388336625205,
+            "avg_computation": 5.424914759999999,
+            "std_computation": 0.020210940540766557,
+            "avg_memory": 12.075241019999998,
+            "std_memory": 0.1292941418338031
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 9.36900464,
+            "std_total": 0.05261337487626498,
+            "avg_computation": 0.51192302,
+            "std_computation": 0.001837640916936706,
+            "avg_memory": 8.85708162,
+            "std_memory": 0.053529226570123364
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.2062706161863887,
+            "std_total": 0.0010121229504308704,
+            "avg_computation": 0.19282475475168606,
+            "std_computation": 0.00013709769505494007,
+            "avg_memory": 0.013445861434702637,
+            "std_memory": 0.0010096823937689957
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.1945891060698958,
+            "std_total": 0.001213916962891521,
+            "avg_computation": 0.18495177682403435,
+            "std_computation": 0.0001427097459545203,
+            "avg_memory": 0.009637329245861435,
+            "std_memory": 0.0011940984912230841
+        }
+    },
+    "SNAP-web-Google": {
+        "PAGERANK_CUDA": {
+            "avg_total": 16.481505659999996,
+            "std_total": 0.3323033907768389,
+            "avg_computation": 0.84910194,
+            "std_computation": 0.005459817932532187,
+            "avg_memory": 15.63240372,
+            "std_memory": 0.33132030079649744
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 12.318273880000003,
+            "std_total": 0.4785515272023541,
+            "avg_computation": 0.56669812,
+            "std_computation": 0.0011559124299011594,
+            "avg_memory": 11.751575759999998,
+            "std_memory": 0.4780431838340783
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.022360681177191904,
+            "std_total": 0.0003548059911591687,
+            "avg_computation": 0.012075515021459227,
+            "std_computation": 2.755227328769059e-05,
+            "avg_memory": 0.01028516615573268,
+            "std_memory": 0.00033443360243865433
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.01971595585530349,
+            "std_total": 0.0005168088914689829,
+            "avg_computation": 0.011834156958920908,
+            "std_computation": 2.469797722073577e-05,
+            "avg_memory": 0.007881798896382587,
+            "std_memory": 0.0005150452790855241
+        }
+    },
+    "SNAP-wiki-Talk": {
+        "PAGERANK_CUDA": {
+            "avg_total": 53.55082478,
+            "std_total": 0.6129803740358835,
+            "avg_computation": 5.19219312,
+            "std_computation": 0.005790877327797662,
+            "avg_memory": 48.35863165999999,
+            "std_memory": 0.6117127048582074
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 37.33449612,
+            "std_total": 1.5903334710936903,
+            "avg_computation": 1.20343192,
+            "std_computation": 0.0026662921808384065,
+            "avg_memory": 36.1310642,
+            "std_memory": 1.5888120092019824
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.014326605763335377,
+            "std_total": 0.0005340427511240052,
+            "avg_computation": 0.0008635830778663397,
+            "std_computation": 1.6284986728087118e-05,
+            "avg_memory": 0.013463022685469039,
+            "std_memory": 0.0005304806782015816
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.012645314530962598,
+            "std_total": 0.0005445537908916842,
+            "avg_computation": 0.0008448982219497242,
+            "std_computation": 5.934607107701406e-06,
+            "avg_memory": 0.011800416309012875,
+            "std_memory": 0.0005439202999140611
+        }
+    },
+    "graph500-10": {
+        "PAGERANK_CUDA": {
+            "avg_total": 0.02111248,
+            "std_total": 0.0016290394499827196,
+            "avg_computation": 0.00886102,
+            "std_computation": 0.0005488871829438176,
+            "avg_memory": 0.012251459999999999,
+            "std_memory": 0.0012221645913705731
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.014216079999999999,
+            "std_total": 0.00020143285134257514,
+            "avg_computation": 0.00279062,
+            "std_computation": 0.0001981423619522085,
+            "avg_memory": 0.011425459999999998,
+            "std_memory": 2.8627406449065423e-05
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0009595211526670755,
+            "std_total": 0.00012497646380560772,
+            "avg_computation": 0.00012382280809319435,
+            "std_computation": 1.2019445504107109e-05,
+            "avg_memory": 0.0008356983445738811,
+            "std_memory": 0.00011597975886726996
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.00016467320662170447,
+            "std_total": 2.863844591218921e-06,
+            "avg_computation": 0.00010574800735744941,
+            "std_computation": 2.064180370814703e-06,
+            "avg_memory": 5.8925199264255055e-05,
+            "std_memory": 1.6407730809067638e-06
+        }
+    },
+    "graph500-11": {
+        "PAGERANK_CUDA": {
+            "avg_total": 0.04002236,
+            "std_total": 0.0011720493805296773,
+            "avg_computation": 0.01448662,
+            "std_computation": 4.350029425187831e-05,
+            "avg_memory": 0.02553574,
+            "std_memory": 0.0011301626221035626
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.02080006,
+            "std_total": 0.00026223244726768637,
+            "avg_computation": 0.0036158,
+            "std_computation": 4.32832531124914e-05,
+            "avg_memory": 0.017184259999999996,
+            "std_memory": 0.0002524178923927542
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0008719343960760269,
+            "std_total": 5.851181176053068e-05,
+            "avg_computation": 7.313917841814837e-05,
+            "std_computation": 2.633953475858314e-06,
+            "avg_memory": 0.0007987952176578786,
+            "std_memory": 5.98084906212917e-05
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.00012770079705702025,
+            "std_total": 3.039489631299531e-06,
+            "avg_computation": 5.467504598405886e-05,
+            "std_computation": 1.9230720829936285e-06,
+            "avg_memory": 7.302575107296138e-05,
+            "std_memory": 2.066182476827969e-06
+        }
+    },
+    "graph500-12": {
+        "PAGERANK_CUDA": {
+            "avg_total": 0.07513578,
+            "std_total": 0.0014178867555626582,
+            "avg_computation": 0.021731680000000003,
+            "std_computation": 5.6622059305539274e-05,
+            "avg_memory": 0.0534041,
+            "std_memory": 0.0013771287848273305
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.03912492,
+            "std_total": 0.0003077414395235069,
+            "avg_computation": 0.00405486,
+            "std_computation": 3.530892804943254e-05,
+            "avg_memory": 0.03507005999999999,
+            "std_memory": 0.00029977420903073006
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0012364475781729,
+            "std_total": 8.319687474945871e-05,
+            "avg_computation": 0.00024053586756591052,
+            "std_computation": 1.2685838712139107e-05,
+            "avg_memory": 0.0009959117106069894,
+            "std_memory": 7.972328478894855e-05
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.00029111220110361743,
+            "std_total": 9.228965252449734e-06,
+            "avg_computation": 0.0001976922133660331,
+            "std_computation": 9.32325307447515e-06,
+            "avg_memory": 9.34199877375843e-05,
+            "std_memory": 1.8976426047594887e-06
+        }
+    },
+    "graph500-13": {
+        "PAGERANK_CUDA": {
+            "avg_total": 0.13007168,
+            "std_total": 0.009303187611652256,
+            "avg_computation": 0.03329839999999999,
+            "std_computation": 7.424715482764282e-05,
+            "avg_memory": 0.09677327999999999,
+            "std_memory": 0.009229533143209357
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.07477568,
+            "std_total": 0.0003157807112538698,
+            "avg_computation": 0.0057211,
+            "std_computation": 5.2726558772595776e-05,
+            "avg_memory": 0.06905458,
+            "std_memory": 0.000307258594021388
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0010171630901287553,
+            "std_total": 6.373548869127757e-05,
+            "avg_computation": 0.00010858920907418762,
+            "std_computation": 4.125021232853643e-06,
+            "avg_memory": 0.0009085738810545677,
+            "std_memory": 6.005894737352234e-05
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.00025957449417535254,
+            "std_total": 5.4696475314921565e-06,
+            "avg_computation": 9.373758430410789e-05,
+            "std_computation": 1.5726209894020563e-06,
+            "avg_memory": 0.00016583690987124463,
+            "std_memory": 5.139418482025478e-06
+        }
+    },
+    "graph500-14": {
+        "PAGERANK_CUDA": {
+            "avg_total": 0.23749510000000001,
+            "std_total": 0.0055195496165901066,
+            "avg_computation": 0.05672308,
+            "std_computation": 2.219715297059454e-05,
+            "avg_memory": 0.18077202000000003,
+            "std_memory": 0.005503012151503939
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.15108280000000002,
+            "std_total": 0.0011111571985997304,
+            "avg_computation": 0.010836779999999999,
+            "std_computation": 2.125303742997703e-05,
+            "avg_memory": 0.14024602,
+            "std_memory": 0.0011113223023047813
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0018431575720416922,
+            "std_total": 0.00014978390423167121,
+            "avg_computation": 0.00032916431637032497,
+            "std_computation": 2.6483963927581628e-05,
+            "avg_memory": 0.0015139932556713673,
+            "std_memory": 0.00013513537714767324
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.000681925199264255,
+            "std_total": 4.386062085176511e-05,
+            "avg_computation": 0.0003236891477621091,
+            "std_computation": 1.1572059786311603e-05,
+            "avg_memory": 0.0003582360515021459,
+            "std_memory": 3.602943581786386e-05
+        }
+    },
+    "graph500-15": {
+        "PAGERANK_CUDA": {
+            "avg_total": 0.47168232,
+            "std_total": 0.0028331844093881344,
+            "avg_computation": 0.08793530000000001,
+            "std_computation": 4.953473528747227e-05,
+            "avg_memory": 0.38374702,
+            "std_memory": 0.002821884522725903
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.30915056,
+            "std_total": 0.0021868873693905687,
+            "avg_computation": 0.016224980000000003,
+            "std_computation": 0.00010435755650646491,
+            "avg_memory": 0.29292558,
+            "std_memory": 0.0021599767229301355
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.0017192636419374617,
+            "std_total": 4.8104261854469733e-05,
+            "avg_computation": 0.00039015328019619867,
+            "std_computation": 9.132235167833073e-06,
+            "avg_memory": 0.001329110361741263,
+            "std_memory": 4.611492411543171e-05
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.0010426321275291233,
+            "std_total": 5.8371415258349754e-05,
+            "avg_computation": 0.000388241569589209,
+            "std_computation": 1.1345227028244546e-05,
+            "avg_memory": 0.0006543905579399142,
+            "std_memory": 5.0806277912148767e-05
+        }
+    },
+    "graph500-16": {
+        "PAGERANK_CUDA": {
+            "avg_total": 0.9636361800000001,
+            "std_total": 0.0077734642050761365,
+            "avg_computation": 0.17422908,
+            "std_computation": 0.00027960757071295603,
+            "avg_memory": 0.7894070999999999,
+            "std_memory": 0.007780923208077566
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.63399874,
+            "std_total": 0.003916311380929768,
+            "avg_computation": 0.03548662,
+            "std_computation": 2.9370658828157047e-05,
+            "avg_memory": 0.5985121200000001,
+            "std_memory": 0.003911915462481254
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.003378721643163703,
+            "std_total": 0.00013145182243816682,
+            "avg_computation": 0.0005463838136112814,
+            "std_computation": 1.0510679882271026e-05,
+            "avg_memory": 0.002832337829552422,
+            "std_memory": 0.000123145452562272
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.001794525444512569,
+            "std_total": 0.00011003527859133931,
+            "avg_computation": 0.0005329987737584304,
+            "std_computation": 9.04054487255008e-06,
+            "avg_memory": 0.0012615266707541387,
+            "std_memory": 0.0001092947252384263
+        }
+    },
+    "graph500-17": {
+        "PAGERANK_CUDA": {
+            "avg_total": 1.88560168,
+            "std_total": 0.009815540279454823,
+            "avg_computation": 0.25342022,
+            "std_computation": 0.0002689751133469421,
+            "avg_memory": 1.6321814600000002,
+            "std_memory": 0.009890575439700152
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 1.2464115599999999,
+            "std_total": 0.011868683125199715,
+            "avg_computation": 0.056921779999999984,
+            "std_computation": 0.000301857071475889,
+            "avg_memory": 1.18948978,
+            "std_memory": 0.011851687655840415
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.003927258123850398,
+            "std_total": 0.0001501736218355025,
+            "avg_computation": 0.0005864267320662171,
+            "std_computation": 1.4992027198170241e-05,
+            "avg_memory": 0.0033408313917841818,
+            "std_memory": 0.0001469357910477502
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.0031731030042918456,
+            "std_total": 6.912710857516449e-05,
+            "avg_computation": 0.0005573427345187002,
+            "std_computation": 6.816299009823603e-06,
+            "avg_memory": 0.002615760269773145,
+            "std_memory": 6.798088807720417e-05
+        }
+    },
+    "graph500-18": {
+        "PAGERANK_CUDA": {
+            "avg_total": 3.7678132599999996,
+            "std_total": 0.03680214076154268,
+            "avg_computation": 0.45168694000000004,
+            "std_computation": 0.008564925481076877,
+            "avg_memory": 3.316126319999999,
+            "std_memory": 0.03456217307429612
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 2.53709658,
+            "std_total": 0.014691205981933561,
+            "avg_computation": 0.11363868,
+            "std_computation": 5.1357351956658096e-05,
+            "avg_memory": 2.4234579,
+            "std_memory": 0.01468389333147037
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.011657042305334151,
+            "std_total": 0.0002866701962159422,
+            "avg_computation": 0.002009032495401594,
+            "std_computation": 6.3560453051678355e-06,
+            "avg_memory": 0.009648009809932556,
+            "std_memory": 0.00028640390913536824
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.009735868792152054,
+            "std_total": 0.0005781641105797109,
+            "avg_computation": 0.002009296137339056,
+            "std_computation": 1.0005086556293171e-05,
+            "avg_memory": 0.007726572654812997,
+            "std_memory": 0.0005760368132887776
+        }
+    },
+    "graph500-19": {
+        "PAGERANK_CUDA": {
+            "avg_total": 10.18628594,
+            "std_total": 0.12418036981301195,
+            "avg_computation": 0.9760047000000001,
+            "std_computation": 0.0093545049665923,
+            "avg_memory": 9.210281239999999,
+            "std_memory": 0.1237092908030048
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 6.5023197800000005,
+            "std_total": 0.030578750577674018,
+            "avg_computation": 0.36797648000000005,
+            "std_computation": 0.00027108413749240624,
+            "avg_memory": 6.134343299999999,
+            "std_memory": 0.0306538127783478
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.014006833231146537,
+            "std_total": 0.0007084470934844951,
+            "avg_computation": 0.0006870564071122013,
+            "std_computation": 5.606819583363719e-06,
+            "avg_memory": 0.013319776824034334,
+            "std_memory": 0.0007069692391234563
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.0146735806253832,
+            "std_total": 0.0011154027465588936,
+            "avg_computation": 0.0006785818516247701,
+            "std_computation": 1.8682031072222925e-05,
+            "avg_memory": 0.01399499877375843,
+            "std_memory": 0.0011138818513028628
+        }
+    },
+    "graph500-20": {
+        "PAGERANK_CUDA": {
+            "avg_total": 16.05593538,
+            "std_total": 0.1557618479644991,
+            "avg_computation": 1.6361894399999999,
+            "std_computation": 0.009634228596332966,
+            "avg_memory": 14.41974594,
+            "std_memory": 0.1548208740094707
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 10.366521539999999,
+            "std_total": 0.05318740998289355,
+            "avg_computation": 0.7530094199999999,
+            "std_computation": 0.0007630883327636488,
+            "avg_memory": 9.613512120000001,
+            "std_memory": 0.05307696836958191
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.03520032863274065,
+            "std_total": 0.0014145565039665512,
+            "avg_computation": 0.009383112201103617,
+            "std_computation": 5.151424098874263e-05,
+            "avg_memory": 0.02581721643163703,
+            "std_memory": 0.0014079086047181842
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.026732083997547517,
+            "std_total": 0.0009338805839725927,
+            "avg_computation": 0.009142798896382589,
+            "std_computation": 4.6121637208253625e-05,
+            "avg_memory": 0.01758928510116493,
+            "std_memory": 0.0009316551558963497
+        }
+    },
+    "graph500-21": {
+        "PAGERANK_CUDA": {
+            "avg_total": 32.08422444,
+            "std_total": 0.19960989882059046,
+            "avg_computation": 3.4459389600000003,
+            "std_computation": 0.008070258498858632,
+            "avg_memory": 28.63828548,
+            "std_memory": 0.20013534121691148
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 22.493176119999998,
+            "std_total": 0.6397391397581874,
+            "avg_computation": 1.91602388,
+            "std_computation": 0.018866621451272055,
+            "avg_memory": 20.57715224,
+            "std_memory": 0.6413470867693583
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.06420152667075414,
+            "std_total": 0.0023386694533716283,
+            "avg_computation": 0.015686451870018395,
+            "std_computation": 5.8600958447455585e-05,
+            "avg_memory": 0.04851507480073575,
+            "std_memory": 0.0023356891345415374
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.050200338442673215,
+            "std_total": 0.0016576395203380802,
+            "avg_computation": 0.014535510729613737,
+            "std_computation": 5.6260221155871014e-05,
+            "avg_memory": 0.035664827713059476,
+            "std_memory": 0.001656504864399775
+        }
+    },
+    "graph500-22": {
+        "PAGERANK_CUDA": {
+            "avg_total": 65.83184007999999,
+            "std_total": 0.8358963111808281,
+            "avg_computation": 6.29036214,
+            "std_computation": 0.006107629654816936,
+            "avg_memory": 59.54147793999999,
+            "std_memory": 0.8342485125583242
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 45.73554226,
+            "std_total": 0.39126832488208385,
+            "avg_computation": 4.4529052,
+            "std_computation": 0.027607835955032814,
+            "avg_memory": 41.28263706,
+            "std_memory": 0.36871181754733084
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.1297156971183323,
+            "std_total": 0.0040503665438339324,
+            "avg_computation": 0.04544190128755365,
+            "std_computation": 4.7573165486113995e-05,
+            "avg_memory": 0.08427379583077865,
+            "std_memory": 0.004049074220551991
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.3126727670141018,
+            "std_total": 0.02841766804477963,
+            "avg_computation": 0.04142706376456162,
+            "std_computation": 3.670611214224922e-05,
+            "avg_memory": 0.2712457032495401,
+            "std_memory": 0.02842043704788635
+        }
+    },
+    "graph500-23": {
+        "PAGERANK_CUDA": {
+            "avg_total": 132.3924539,
+            "std_total": 1.153231478150025,
+            "avg_computation": 12.3200973,
+            "std_computation": 0.008384379586469209,
+            "avg_memory": 120.0723566,
+            "std_memory": 1.1520369435474547
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 101.51332160000001,
+            "std_total": 0.854528758534784,
+            "avg_computation": 9.794727479999999,
+            "std_computation": 0.038676990672098496,
+            "avg_memory": 91.71859411999999,
+            "std_memory": 0.8400917154655114
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.5571189264255059,
+            "std_total": 0.02601269926274257,
+            "avg_computation": 0.07197016309012877,
+            "std_computation": 7.567435889879046e-05,
+            "avg_memory": 0.4851487633353771,
+            "std_memory": 0.026012193438754553
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.23038576149601472,
+            "std_total": 0.02810050727657112,
+            "avg_computation": 0.06152897424892704,
+            "std_computation": 8.881953168153316e-05,
+            "avg_memory": 0.16885678724708766,
+            "std_memory": 0.028098204257957005
+        }
+    },
+    "graph500-24": {
+        "PAGERANK_CUDA": {
+            "avg_total": 269.12191996,
+            "std_total": 3.2768662992147477,
+            "avg_computation": 29.32304706,
+            "std_computation": 0.02057293119262295,
+            "avg_memory": 239.7988729,
+            "std_memory": 3.2698545678137436
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 205.5157518,
+            "std_total": 2.0162879596272756,
+            "avg_computation": 22.07968462,
+            "std_computation": 0.009144676507979715,
+            "avg_memory": 183.43606717999998,
+            "std_memory": 2.0195069804637065
+        },
+        "BFS_CUDA": {
+            "avg_total": 0.7907473500919682,
+            "std_total": 0.26522305451065414,
+            "avg_computation": 0.140471475781729,
+            "std_computation": 0.00010764302448102514,
+            "avg_memory": 0.650275874310239,
+            "std_memory": 0.26520929055577414
+        },
+        "BFS_OPENACC": {
+            "avg_total": 0.6700515591661557,
+            "std_total": 0.04959905338267469,
+            "avg_computation": 0.12432822808093194,
+            "std_computation": 9.93346694287397e-05,
+            "avg_memory": 0.5457233310852238,
+            "std_memory": 0.04960160244282337
+        }
+    }
+}

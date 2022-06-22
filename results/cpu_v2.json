@@ -1,0 +1,632 @@
+{
+    "KONECT-actor-collaboration": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 2.01531474,
+            "std_total": 0.014754010175962312,
+            "avg_computation": 2.01531474,
+            "std_computation": 0.014754010175962312,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 2.0715704600000002,
+            "std_total": 0.02107209585609367,
+            "avg_computation": 2.06947584,
+            "std_computation": 0.021024010332341466,
+            "avg_memory": 0.00209462,
+            "std_memory": 0.0001318096946358651
+        }
+    },
+    "KONECT-ca-cit-HepPh": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.13386876,
+            "std_total": 0.0037891212572838053,
+            "avg_computation": 0.13386876,
+            "std_computation": 0.0037891212572838053,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.13402132000000003,
+            "std_total": 0.002768483515862068,
+            "avg_computation": 0.13399183999999997,
+            "std_computation": 0.0027682124583203504,
+            "avg_memory": 2.9480000000000002e-05,
+            "std_memory": 1.4729562111617575e-06
+        }
+    },
+    "KONECT-cfinder-google": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.021583819999999997,
+            "std_total": 0.000557496320705348,
+            "avg_computation": 0.021583819999999997,
+            "std_computation": 0.000557496320705348,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.022037019999999997,
+            "std_total": 0.00021976328082734845,
+            "avg_computation": 0.022016579999999997,
+            "std_computation": 0.00021918349299160253,
+            "avg_memory": 2.044e-05,
+            "std_memory": 1.0613199329137273e-06
+        }
+    },
+    "KONECT-dbpedia-all": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 11.18049764,
+            "std_total": 0.6994695151373436,
+            "avg_computation": 11.18049764,
+            "std_computation": 0.6994695151373436,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 15.595347400000001,
+            "std_total": 0.3226826353279645,
+            "avg_computation": 15.569711799999999,
+            "std_computation": 0.32257122242562175,
+            "avg_memory": 0.0256356,
+            "std_memory": 0.0012133262215908796
+        }
+    },
+    "KONECT-dbpedia-starring": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.03696324,
+            "std_total": 0.003674893133466605,
+            "avg_computation": 0.03696324,
+            "std_computation": 0.003674893133466605,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.03727344,
+            "std_total": 0.002655335294534383,
+            "avg_computation": 0.03718058,
+            "std_computation": 0.002608867624775163,
+            "avg_memory": 9.286e-05,
+            "std_memory": 6.668913254796465e-05
+        }
+    },
+    "KONECT-discogs_affiliation": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 6.948235780000001,
+            "std_total": 0.20766034407486578,
+            "avg_computation": 6.948235780000001,
+            "std_computation": 0.20766034407486578,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 5.808950379999999,
+            "std_total": 0.3894680671408576,
+            "avg_computation": 5.801013080000001,
+            "std_computation": 0.38910844304120884,
+            "avg_memory": 0.0079373,
+            "std_memory": 0.0024564110018480212
+        }
+    },
+    "KONECT-opsahl-ucsocial": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.0061646999999999995,
+            "std_total": 0.0005477993884626012,
+            "avg_computation": 0.0061646999999999995,
+            "std_computation": 0.0005477993884626012,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.005635220000000001,
+            "std_total": 0.0005073815641112713,
+            "avg_computation": 0.00563022,
+            "std_computation": 0.0005066998436944698,
+            "avg_memory": 5e-06,
+            "std_memory": 1.0392304845413265e-06
+        }
+    },
+    "KONECT-orkut-links": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 16.289430319999997,
+            "std_total": 0.31774726896295674,
+            "avg_computation": 16.289430319999997,
+            "std_computation": 0.31774726896295674,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 14.810426219999997,
+            "std_total": 1.5940868293753296,
+            "avg_computation": 14.796985099999999,
+            "std_computation": 1.5935998820028854,
+            "avg_memory": 0.013441120000000003,
+            "std_memory": 0.0010362715018758357
+        }
+    },
+    "KONECT-prosper-loans": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.3809732600000001,
+            "std_total": 0.010571221510894568,
+            "avg_computation": 0.3809732600000001,
+            "std_computation": 0.010571221510894568,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.36221546000000004,
+            "std_total": 0.02257398351484292,
+            "avg_computation": 0.3621158,
+            "std_computation": 0.022562572755782974,
+            "avg_memory": 9.966e-05,
+            "std_memory": 5.27812883510814e-05
+        }
+    },
+    "KONECT-web-NotreDame": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.1599461,
+            "std_total": 0.024513903478026504,
+            "avg_computation": 0.1599461,
+            "std_computation": 0.024513903478026504,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.15557239999999997,
+            "std_total": 0.02134214796500109,
+            "avg_computation": 0.15379579999999998,
+            "std_computation": 0.02129456875919303,
+            "avg_memory": 0.0017766000000000001,
+            "std_memory": 7.727535182708652e-05
+        }
+    },
+    "KONECT-wiki_talk_en": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 10.5395868,
+            "std_total": 0.2152755570405521,
+            "avg_computation": 10.5395868,
+            "std_computation": 0.2152755570405521,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 10.29731838,
+            "std_total": 0.40237562947906724,
+            "avg_computation": 10.28680902,
+            "std_computation": 0.4021437162196366,
+            "avg_memory": 0.01050936,
+            "std_memory": 0.0004763777811779218
+        }
+    },
+    "KONECT-zhishi-hudong-internallink": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 10.926604,
+            "std_total": 0.8751239007571898,
+            "avg_computation": 10.926604,
+            "std_computation": 0.8751239007571898,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 10.9944921,
+            "std_total": 0.9564056952385688,
+            "avg_computation": 10.985460100000003,
+            "std_computation": 0.9553555598925094,
+            "avg_memory": 0.009032,
+            "std_memory": 0.0016798914964961278
+        }
+    },
+    "SNAP-as-skitter": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 2.2299611,
+            "std_total": 0.1865157148062597,
+            "avg_computation": 2.2299611,
+            "std_computation": 0.1865157148062597,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 2.16789656,
+            "std_total": 0.16907888609772187,
+            "avg_computation": 2.16042494,
+            "std_computation": 0.16798125330421962,
+            "avg_memory": 0.00747162,
+            "std_memory": 0.0016038095883240005
+        }
+    },
+    "SNAP-email-EuAll": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.19328196000000003,
+            "std_total": 0.006894640950651456,
+            "avg_computation": 0.19328196000000003,
+            "std_computation": 0.006894640950651456,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.20114642,
+            "std_total": 0.0022410600446217403,
+            "avg_computation": 0.19980207999999997,
+            "std_computation": 0.002226231702586233,
+            "avg_memory": 0.00134434,
+            "std_memory": 6.599048719323112e-05
+        }
+    },
+    "SNAP-roadNet-CA": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.6657576999999999,
+            "std_total": 0.22479486606773294,
+            "avg_computation": 0.6657576999999999,
+            "std_computation": 0.22479486606773294,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 1.8129569599999997,
+            "std_total": 0.02563068263075333,
+            "avg_computation": 1.8041488199999998,
+            "std_computation": 0.024118723482547743,
+            "avg_memory": 0.008808139999999999,
+            "std_memory": 0.0038870089735425105
+        }
+    },
+    "SNAP-roadNet-PA": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.35793084000000003,
+            "std_total": 0.027530931108380625,
+            "avg_computation": 0.35793084000000003,
+            "std_computation": 0.027530931108380625,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.84933562,
+            "std_total": 0.018382006892491354,
+            "avg_computation": 0.84600742,
+            "std_computation": 0.018387704372313594,
+            "avg_memory": 0.0033282000000000008,
+            "std_memory": 0.0002498676449642891
+        }
+    },
+    "SNAP-roadNet-TX": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.48165613999999995,
+            "std_total": 0.045991609643503455,
+            "avg_computation": 0.48165613999999995,
+            "std_computation": 0.045991609643503455,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 1.16481434,
+            "std_total": 0.012984597810652447,
+            "avg_computation": 1.16039602,
+            "std_computation": 0.012571437539899723,
+            "avg_memory": 0.00441832,
+            "std_memory": 0.0004905451025135201
+        }
+    },
+    "SNAP-web-BerkStan": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.43639448000000003,
+            "std_total": 0.10102603604779115,
+            "avg_computation": 0.43639448000000003,
+            "std_computation": 0.10102603604779115,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.40950279999999994,
+            "std_total": 0.08210825994502623,
+            "avg_computation": 0.40567352,
+            "std_computation": 0.0819688168147473,
+            "avg_memory": 0.00382928,
+            "std_memory": 0.00015492217917393238
+        }
+    },
+    "SNAP-web-Google": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 1.3288723800000002,
+            "std_total": 0.13306493636805905,
+            "avg_computation": 1.3288723800000002,
+            "std_computation": 0.13306493636805905,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 1.35683062,
+            "std_total": 0.08979703849902623,
+            "avg_computation": 1.35273178,
+            "std_computation": 0.08968904466818453,
+            "avg_memory": 0.00409884,
+            "std_memory": 0.0001413513862684056
+        }
+    },
+    "SNAP-wiki-Talk": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 4.512566799999999,
+            "std_total": 0.03821935186734595,
+            "avg_computation": 4.512566799999999,
+            "std_computation": 0.03821935186734595,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 4.531137500000001,
+            "std_total": 0.17787163992950086,
+            "avg_computation": 4.52411518,
+            "std_computation": 0.1776570926239299,
+            "avg_memory": 0.007022319999999999,
+            "std_memory": 0.00036190233157579974
+        }
+    },
+    "graph500-10": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.00510078,
+            "std_total": 0.000800282957209511,
+            "avg_computation": 0.00510078,
+            "std_computation": 0.000800282957209511,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.004693559999999999,
+            "std_total": 0.0006968789323835239,
+            "avg_computation": 0.0046895800000000005,
+            "std_computation": 0.0006960216401808208,
+            "avg_memory": 3.98e-06,
+            "std_memory": 1.318938967503804e-06
+        }
+    },
+    "graph500-11": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.00499336,
+            "std_total": 0.0007039067199565577,
+            "avg_computation": 0.00499336,
+            "std_computation": 0.0007039067199565577,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.00599818,
+            "std_total": 0.0005362601491813466,
+            "avg_computation": 0.00599256,
+            "std_computation": 0.0005354630579227665,
+            "avg_memory": 5.619999999999999e-06,
+            "std_memory": 1.074988372030135e-06
+        }
+    },
+    "graph500-12": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.00374934,
+            "std_total": 0.0002910401766079728,
+            "avg_computation": 0.00374934,
+            "std_computation": 0.0002910401766079728,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.00458852,
+            "std_total": 0.0008051905175795354,
+            "avg_computation": 0.00457924,
+            "std_computation": 0.0008038810996658648,
+            "avg_memory": 9.28e-06,
+            "std_memory": 1.8443427013437608e-06
+        }
+    },
+    "graph500-13": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.00378504,
+            "std_total": 0.0010560622511954492,
+            "avg_computation": 0.00378504,
+            "std_computation": 0.0010560622511954492,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.00586032,
+            "std_total": 0.0009381359057194219,
+            "avg_computation": 0.0058469,
+            "std_computation": 0.0009366389752727568,
+            "avg_memory": 1.3420000000000004e-05,
+            "std_memory": 1.8556939402821792e-06
+        }
+    },
+    "graph500-14": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.01018366,
+            "std_total": 0.002251911646668226,
+            "avg_computation": 0.01018366,
+            "std_computation": 0.002251911646668226,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.010543340000000002,
+            "std_total": 0.0017935471291270827,
+            "avg_computation": 0.01052246,
+            "std_computation": 0.0017912120165965836,
+            "avg_memory": 2.088e-05,
+            "std_memory": 2.739635012186842e-06
+        }
+    },
+    "graph500-15": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.01571254,
+            "std_total": 0.004370310090645742,
+            "avg_computation": 0.01571254,
+            "std_computation": 0.004370310090645742,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.016986340000000003,
+            "std_total": 0.004289732502662608,
+            "avg_computation": 0.01694516,
+            "std_computation": 0.004273992369483127,
+            "avg_memory": 4.118e-05,
+            "std_memory": 3.7726749131087354e-05
+        }
+    },
+    "graph500-16": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.02683182,
+            "std_total": 0.0049532612234365345,
+            "avg_computation": 0.02683182,
+            "std_computation": 0.0049532612234365345,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.028538379999999995,
+            "std_total": 0.006287862997521495,
+            "avg_computation": 0.02846884,
+            "std_computation": 0.006272437964173102,
+            "avg_memory": 6.954e-05,
+            "std_memory": 3.7305340100312716e-05
+        }
+    },
+    "graph500-17": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.055815859999999995,
+            "std_total": 0.010794945172644465,
+            "avg_computation": 0.055815859999999995,
+            "std_computation": 0.010794945172644465,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.059830180000000004,
+            "std_total": 0.0043396287246261055,
+            "avg_computation": 0.05968690000000001,
+            "std_computation": 0.0042806195497848195,
+            "avg_memory": 0.00014328,
+            "std_memory": 7.148987061115722e-05
+        }
+    },
+    "graph500-18": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.21076891999999997,
+            "std_total": 0.012218666180627079,
+            "avg_computation": 0.21076891999999997,
+            "std_computation": 0.012218666180627079,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.21036976,
+            "std_total": 0.01250958150788427,
+            "avg_computation": 0.20892828000000002,
+            "std_computation": 0.012482649496064528,
+            "avg_memory": 0.00144148,
+            "std_memory": 6.332842647658315e-05
+        }
+    },
+    "graph500-19": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 0.69992026,
+            "std_total": 0.041345228526063316,
+            "avg_computation": 0.69992026,
+            "std_computation": 0.041345228526063316,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 0.68676008,
+            "std_total": 0.03332372308541769,
+            "avg_computation": 0.6839068800000001,
+            "std_computation": 0.0332425229004298,
+            "avg_memory": 0.0028532,
+            "std_memory": 0.00016363300400591563
+        }
+    },
+    "graph500-20": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 1.31895418,
+            "std_total": 0.03376317886318763,
+            "avg_computation": 1.31895418,
+            "std_computation": 0.03376317886318763,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 1.06747476,
+            "std_total": 0.08954051452958263,
+            "avg_computation": 1.0632770599999999,
+            "std_computation": 0.08940601455750277,
+            "avg_memory": 0.0041976999999999995,
+            "std_memory": 0.00016048118269753624
+        }
+    },
+    "graph500-21": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 3.88183712,
+            "std_total": 0.06708616585008868,
+            "avg_computation": 3.88183712,
+            "std_computation": 0.06708616585008868,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 3.05783744,
+            "std_total": 0.08771038319016967,
+            "avg_computation": 3.04988856,
+            "std_computation": 0.08673665068128004,
+            "avg_memory": 0.00794888,
+            "std_memory": 0.002227665671863711
+        }
+    },
+    "graph500-22": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 11.747377600000002,
+            "std_total": 0.2987183435904129,
+            "avg_computation": 11.747377600000002,
+            "std_computation": 0.2987183435904129,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 8.15299198,
+            "std_total": 0.512252127626484,
+            "avg_computation": 8.136925960000001,
+            "std_computation": 0.5118364483934281,
+            "avg_memory": 0.01606602,
+            "std_memory": 0.0009114792919205572
+        }
+    },
+    "graph500-23": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 36.85442728,
+            "std_total": 0.7106803993923301,
+            "avg_computation": 36.85442728,
+            "std_computation": 0.7106803993923301,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 25.756101919999995,
+            "std_total": 0.3293481051755931,
+            "avg_computation": 25.7245073,
+            "std_computation": 0.32975961192664294,
+            "avg_memory": 0.03159462,
+            "std_memory": 0.001666768476903736
+        }
+    },
+    "graph500-24": {
+        "PAGERANK_OPENMP": {
+            "avg_total": 68.38351736,
+            "std_total": 11.140663696238743,
+            "avg_computation": 68.38351736,
+            "std_computation": 11.140663696238743,
+            "avg_memory": 0.0,
+            "std_memory": 0.0
+        },
+        "PAGERANK_OPENACC": {
+            "avg_total": 67.92619886,
+            "std_total": 1.6799148603927871,
+            "avg_computation": 67.85758894,
+            "std_computation": 1.6882349281459783,
+            "avg_memory": 0.06860992,
+            "std_memory": 0.011409176283746344
+        }
+    }
+}

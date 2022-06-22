@@ -1,0 +1,13 @@
+.vscode
+tester
+*.dSYM
+*.output
+*.o
+.DS_Store
+tester_bfs_acc
+tester_bfs_cuda
+tester_pagerank_acc
+tester_pagerank_acccpu
+tester_pagerank_cuda
+tester_pagerank_omp
+__pycache__
